@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries.css">
     <title>Document</title>
 </head>
 <body>
+    <!-- <div class="preloader">
+        <div class="loader">
+            Loading
+        </div>
+    </div> -->
     <section class="top">
         <div class='wrapper'>
             <div class="menu_box_container">
                 <nav class='menu_box'>
                     <div class="waxom_logo">
-                        <a href="#" class="logo"><img src="imgs/logo.png" alt="none"></a>
+                        <a href="#" class="logo"><img src="imgs/main_imgs/logo.png" alt="none"></a>
                     </div>
                     <ul class="nav_menu">
                         <li class="nav_menu__panel"><a href = "#">Home</a></li>
@@ -24,22 +30,36 @@
                         <li class="nav_menu__panel"><a href = "#">Pricing</a></li>
                         <li class="nav_menu__panel"><a href = "#">Shortcodes</a></li>
                         <li class="nav_menu__panel"><a href = "#">Contact</a></li>
-                        <div class="nav_menu__right_panel">
-                            <li><a href = "#" class="cart_icon"><img src="imgs/cart_icon.png" alt=""></a></li>
-                            <li><a href = "#" class="search_icon"><img src="imgs/search_icon.png" alt=""></a></li>
-                        </div>
                     </ul>
+                    <div class="nav_menu__right_panel">
+                        <li><a href = "#" class="cart_icon"><img src="imgs/main_imgs/cart_icon.png" alt=""></a></li>
+                        <li><a href = "#" class="search_icon"><img src="imgs/main_imgs/search_icon.png" alt=""></a></li>
+                    </div>
+                    <div class="menu_box__burger">
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox">&#9776;</label>
+                        <div class="menu">
+                            <a href = "#">Home</a>
+                            <a href = "#">About Us</a>
+                            <a href = "#">Portfolio</a>
+                            <a href = "#">Features</a>
+                            <a href = "#">Blog</a>
+                            <a href = "#">Pricing</a>
+                            <a href = "#">Shortcodes</a>
+                            <a href = "#">Contact</a>
+                        </div>
+                    </div>
                 </nav>
                 <div class="header">
                     <div class="header__top_title">Unique and Modern Design</div>
                     <div class="header_title">Portfolio Joomla! Template</div>
-                    <div class="header_bottom_title">Nam liber tempor cum soluta nobis eleifend option congue nihil imper-<br>diet
+                    <div class="header__bottom_title">Nam liber tempor cum soluta nobis eleifend option congue nihil imper-<br>diet
                         doming id quod mazim placerat facer possim assum.
                     </div>
                     <button class="button brown">Get started</button>
                     <div class="slider_nav">
-                        <button class="slider_nav slider left_slider"><img src="imgs/left_slider.png" alt=""></button>
-                        <button class="slider_nav slider right_slider"><img src="imgs/left_slider.png" alt="">    </button>
+                        <button class="slider_nav slider left_slider"><img src="imgs/main_imgs/left_slider.png" alt=""></button>
+                        <button class="slider_nav slider right_slider"><img src="imgs/main_imgs/left_slider.png" alt="">    </button>
                     </div>
                 </div>
             </div>
@@ -49,25 +69,25 @@
         <div class="container_center"> 
             <div class="speciality_container">
                 <div class="speciality_element">
-                    <img src="imgs/Web.png" alt="">
+                    <img src="imgs/main_imgs/Web.png" alt="">
                     <h2>Web & App Design</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, harum vitae tenetur repellat itaque ex.</p>
                     <div class="speciality_element__line"></div>
                 </div>
                 <div class="speciality_element">
-                    <img src="imgs/dev.png" alt="">
+                    <img src="imgs/main_imgs/dev.png" alt="">
                     <h2>Development</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, harum vitae tenetur repellat itaque ex.</p>
                     <div class="speciality_element__line"></div>
                 </div>
                 <div class="speciality_element">
-                    <img src="imgs/сustom.png" alt="">
+                    <img src="imgs/main_imgs/сustom.png" alt="">
                     <h2>Customization</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, harum vitae tenetur repellat itaque ex.</p>
                     <div class="speciality_element__line"></div>
                 </div>
                 <div class="speciality_element">
-                    <img src="imgs/marketing.png" alt="">
+                    <img src="imgs/main_imgs/marketing.png" alt="">
                     <h2>Marketing</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, harum vitae tenetur repellat itaque ex.</p>
                     <div class="speciality_element__line"></div>
@@ -106,7 +126,7 @@
                 </div>
             </div>
             <div class="projects__info_block">
-                <div class="test">
+                <div class="info_block__container">
                     <div class="item">
                         <img src="imgs/projects_photo/1.png" alt="">
                         <div class="title_container">
@@ -129,7 +149,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="test">
+                <div class="info_block__container">
                     <div class="item">
                         <img src="imgs/projects_photo/4.png" alt="">
                         <div class="title_container">
@@ -161,7 +181,7 @@
     <section class="video_block section_margin">
         <div class="container_center">
             <div class="video_block__title">
-                <a href="#"><img src="imgs/play_icon.png" alt="video play icon"></a>
+                <a href="#"><img src="imgs/main_imgs/play_icon.png" alt="video play icon"></a>
                 <div>
                     <span class="video_block__title_main">Waxom Video Presentation</span>
                     <span class="video_block__title_subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum deleniti, perferendis <br> eveniet excepturi soluta ut, at ipsum quaerat.</span>
@@ -174,16 +194,16 @@
         <div class="content_center">
             <div class="efmd__container">
                 <div class="efmd_image">
-                    <img src="imgs/efmd_photo.png" alt="">
+                    <img src="imgs/main_imgs/efmd_photo.png" alt="">
                 </div>
                 <div class="efmd_title">
                     <span class="main_title">Excellent for Mobile Devices.</span>
                     <span class="main_subtitle"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis beatae esse alias accusamus nostrum, ratione consequatur totam, labore optio sit culpa quasi tempore reprehenderit! Eligendi rerum cum itaque earum nulla.</span>
                     <ul class="main_subtitle">
-                        <li><img src="imgs/efmd_circle.png" alt="">Lorem ipsum dolor sit amet consectetur adipisicing elit;</li>
-                        <li><img src="imgs/efmd_circle.png" alt="">Lorem ipsum dolor sit amet consectetur adipisicing elit;</li>
-                        <li><img src="imgs/efmd_circle.png" alt="">Lorem ipsum dolor sit amet consectetur adipisicing elit;</li>
-                        <li><img src="imgs/efmd_circle.png" alt="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                        <li><img src="imgs/main_imgs/efmd_circle.png" alt="">Lorem ipsum dolor sit amet consectetur adipisicing elit;</li>
+                        <li><img src="imgs/main_imgs/efmd_circle.png" alt="">Lorem ipsum dolor sit amet consectetur adipisicing elit;</li>
+                        <li><img src="imgs/main_imgs/efmd_circle.png" alt="">Lorem ipsum dolor sit amet consectetur adipisicing elit;</li>
+                        <li><img src="imgs/main_imgs/efmd_circle.png" alt="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                     </ul>
                 </div>
             </div>
@@ -241,35 +261,7 @@
                                 <div class="img_content_day">30</div>
                                 <div class="img_content_month">Sep.</div>
                             </div>
-                            <img src="imgs/recent_imgs/photo1.png" alt="">
-                            <div class="img_circles">
-                                <a href="">
-                                </a>
-                                <a href="">
-                                </a>
-                                <a href="">
-                                </a>
-                                <a href="">
-                                </a>
-                                <a href="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="photo_block_description">
-                            <span class="photo_block__item_title">Lorem ipsum dolor sit.</span>
-                            <span class="photo_block__item_subtitle">Lorem ipsum dolor sit, amet consectetur<br> 
-                                adipisicing elit.</span>
-                            <a href="">Read More <img src="imgs/recent_imgs/arrow_recent.png" alt=""></a>
-                        </div>
-                    </div>
-                    <div class="bottom_buttons"></div>
-                    <div class="photo_block__item">
-                        <div class="img_container">
-                            <div class="img_content">
-                                <div class="img_content_day">30</div>
-                                <div class="img_content_month">Sep.</div>
-                            </div>
-                            <img src="imgs/recent_imgs/photo2.png" alt="">
+                            <img class="img_content_img" src="imgs/recent_imgs/photo1.png" alt="">
                             <div class="img_circles">
                                 <a href="">
                                 </a>
@@ -296,7 +288,34 @@
                                 <div class="img_content_day">30</div>
                                 <div class="img_content_month">Sep.</div>
                             </div>
-                            <img src="imgs/recent_imgs/photo3.png" alt="">
+                            <img class="img_content_img" src="imgs/recent_imgs/photo2.png" alt="">
+                            <div class="img_circles">
+                                <a href="">
+                                </a>
+                                <a href="">
+                                </a>
+                                <a href="">
+                                </a>
+                                <a href="">
+                                </a>
+                                <a href="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="photo_block_description">
+                            <span class="photo_block__item_title">Lorem ipsum dolor sit.</span>
+                            <span class="photo_block__item_subtitle">Lorem ipsum dolor sit, amet consectetur<br> 
+                                adipisicing elit.</span>
+                            <a href="">Read More <img src="imgs/recent_imgs/arrow_recent.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="photo_block__item">
+                        <div class="img_container">
+                            <div class="img_content">
+                                <div class="img_content_day">30</div>
+                                <div class="img_content_month">Sep.</div>
+                            </div>
+                            <img class="img_content_img" src="imgs/recent_imgs/photo3.png" alt="">
                             <div class="img_circles">
                                 <a href="">
                                 </a>
@@ -329,15 +348,14 @@
     <section class="partners section_margin">
         <div class="container_center">
             <div class="partners_box">
-                <div><img src="imgs/partners_imgs/logo-1.png" alt=""></div>
-                <div><img src="imgs/partners_imgs/logo-2.png" alt=""></div>
-                <div><img src="imgs/partners_imgs/logo-3.png" alt=""></div>
-                <div><img src="imgs/partners_imgs/logo-4.png" alt=""></div>
+                <div class="partners_box__logo_container"><img src="imgs/partners_imgs/logo-1.png" alt=""></div>
+                <div class="partners_box__logo_container"><img src="imgs/partners_imgs/logo-2.png" alt=""></div>
+                <div class="partners_box__logo_container"><img src="imgs/partners_imgs/logo-3.png" alt=""></div>
+                <div class="partners_box__logo_container"><img src="imgs/partners_imgs/logo-4.png" alt=""></div>
             </div>
         </div>
     </section>
-    <section class="footer">
-        <div class="container_center">
+    <section class="footer_container">
             <footer class="footer">
                 <div class="footer__left_block">
                     <a href=""><span>Copyright © 2015 Waxom</span></a>
@@ -354,7 +372,6 @@
                     <a href=""><span>Only on Envato Market</span></a>
                 </div>
             </footer>
-        </div>
     </section>
 </body>
 </html>
